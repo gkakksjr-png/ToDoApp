@@ -1,0 +1,79 @@
+/* 통합 디자인 위치 common.css */
+/* 개별파일별 디자인 금지 */
+body {background-color: rgba(0,0,0,0.15);}
+#wrap {
+    width: 440px;
+    height: 95vh; min-height: 956px;
+    background-color: #fff;
+    margin: 5px auto 0;
+    padding: 64px 15px 0;
+}
+#wrap header {
+    /* background-color: burlywood; */
+    overflow: hidden;
+}
+#wrap header h1 {float: left;}
+#wrap header h1 a {
+    font-size: 1.5rem;/* 25px */
+    font-weight: 900;
+}
+#wrap header nav {
+    float:right
+}
+#wrap header nav a {}
+#wrap header nav a img {}
+#wrap header nav .search {margin-right: 10px;}
+#wrap header nav .search img {}
+#wrap header nav .all_menu {}
+#wrap header nav .all_menu img {}
+#wrap .tab_menu {
+    /* background-color: cadetblue;  */
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+#wrap .tab_menu a {
+    /* background-color: aquamarine;  */
+    font-size: 1.13rem;/* 18px */
+    line-height: 45px; 
+    display: inline-block;
+    color: #555;
+}
+#wrap .tab_menu .active {font-weight: 600; color: #000;}
+#wrap .tab_menu .all {margin-right: 12px;}
+#wrap .tab_menu .today {}
+#wrap .tab_contents {}
+#wrap .tab_contents .contents {
+    /* background-color: blue;  */
+    /* display: block; */
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+#wrap .tab_contents .contents a {
+    float: left;
+    /* background-color: cadetblue;  */
+    line-height: 47px;
+}
+/* 상태선택자 :hover */
+#wrap .tab_contents .contents:hover {border-color: #000;}
+#wrap .tab_contents .contents:hover a {color: #280436;}
+#wrap .tab_contents .contents a:hover {
+    background-color: #f5f5f5;
+}
+#wrap .tab_contents .contents .date {
+    /* background-color: aqua;  */
+    width: 72px;
+    text-align: center;
+}
+#wrap .tab_contents .contents .date+a {
+    width: calc(100% - 72px);
+}
+#wrap .tab_contents .contents1 {}
+#wrap .tab_contents .contents2 {}
+#wrap .tab_contents .contents3 {}
+#wrap #write_fab {
+    position: fixed;
+    /* position: absolute; */
+    right: 50px; bottom: 50px;
+}
+#wrap #write_fab:hover img {filter: blur(1px) invert(1) brightness(160%);}
+#wrap #write_fab img {}
